@@ -15,4 +15,4 @@ export const bookTripFlowTestData = {
 }
 
 const today = new Date();
-export const currentDay = today.getDate();
+export const tommorowsDate = today.getDate() +1 ;

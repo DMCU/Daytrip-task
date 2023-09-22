@@ -12,10 +12,10 @@ export class initialSettingsPage{
         cy.get(dayTripSelectors.finalDestinationInputSelector).click({multiple:true}).first().type(finalDestionation);
     }
 
-    setTripsStartDate(currentDay){
+    setTripsStartDate(Day){
         cy.get(dayTripSelectors.departureDatepickerInputSelector).click({multiple:true});
         cy.get(dayTripSelectors.departureDatepickerInputSelector).click({multiple:true});
-        cy.get('tr').contains(currentDay).click({multiple:true});
+        cy.get('tr').contains(Day).click({multiple:true});
         cy.scrollTo('top')
         cy.wait(3000);
     }

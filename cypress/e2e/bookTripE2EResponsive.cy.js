@@ -8,6 +8,7 @@ import { onCompleteBookingFormPage } from "../pages/completeBookingFormPage";
 describe("Booking a trip from A to B location with the cash as a payment option", () => {
 
   beforeEach(() => {
+    cy.viewport('iphone-x')
     cy.visit("/", {
       onBeforeLoad(win) {
         Object.defineProperty(win.navigator, 'language', { value: 'en' });
