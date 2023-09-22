@@ -1,0 +1,20 @@
+export const dayTripSelectors = {
+    startDestinationInputBeforeClickSelector: '[data-cy="fromSelect"]',
+    startDestinationDropdownListSelector: '.sc-14d6cdff-3 jICNaf',
+    finalDestinationInputSelector: '[data-cy="toSelect"]',
+    departureDatepickerInputSelector: '[data-cy="departureDate"]',
+    searchButtonSelector: '[data-cy="book-button"]',
+    bookTripButtonSelector: '[data-cy="bookTrip"]',
+    confirmButtonSelector: '[data-cy="confirm"]',
+    emailInputSelector: '#lead-passenger-email',
+    saveAndContinueButtonSelector: '[data-cy="saveAndContinue"]',
+    formFirstNameSelector: '#adult_0_firstName',
+    formLastNameSelector: '#adult_0_lastName',
+    birthDaySelector: '#date-input',
+    birthMonthSelector: '[data-cy="monthSelector"]',
+    birthMonthOptionSelector: '#month-option-0',
+    birthYearSelector: '[data-cy="yearInput"]',
+    phoneInputSelector: '#phone',
+    cashButtonSelectorActive: '.sc-a626d631-2 ikPwzc',
+    confirmBookingButton: '[data-cy="confirmPayment"]'
+}

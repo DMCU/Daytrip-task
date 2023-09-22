@@ -1,0 +1,22 @@
+{
+  "name": "daytrip-task",
+  "version": "1.0.0",
+  "description": "Daytrip-task",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DMCU/Daytrip-task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DMCU/Daytrip-task/issues"
+  },
+  "homepage": "https://github.com/DMCU/Daytrip-task#readme",
+  "dependencies": {
+    "cypress": "^13.2.0"
+  }
+}
